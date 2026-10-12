@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en"><head><script>window["__codeletBootstrap__"]=JSON.parse('{"A":"A","B":"20261012-04-4942f96","C":{"Abril Fatface":"YACgEZbkUVE,0","Albert Sans":"YAHO2HRfeh4,0","Alfa Slab One":"YACgEYS9sJU,0","Anton":"YACgEcYqQ-A,0","Archivo Black":"YACgEZulLoA,0","Archivo":"YAHO2-t-jNE,0","Arial":"YAGyDvJ_4Ts,0","Baloo 2":"YAHO2IcQUcM,0","Barlow Condensed":"YAFdJljEuFc,0","Barlow":"YAFdJsyuOPM,1","Bebas Neue":"YACgESME5ew,0","Bricolage Grotesque":"YAFyMcdwzpc,0","Canva Sans":"YAFdJjTk5UU,1","Caveat":"YALBs2ploWQ,0","Cinzel":"YACgEeV8bIQ,0","Cormorant Garamond":"YAFdJhX-538,0","Courier New":"YAGzXiGs0_8,0","Courier Prime":"YAD1aFjegN8,0","DM Sans":"YAD1aU3sLnI,0","DM Serif Display":"YAD1aYG82rc,0","Figtree":"YAHO2b-mV7A,0","Forum":"YACgEcnnqB4,0","Fraunces":"YAFdJpU7Kkk,0","Fredoka":"YACgEZml080,0","Georgia":"YAGzXkO0pEM,0","Hanken Grotesk":"YAHO2VB9G0I,0","Helvetica":"YAFcf7zkXN0,0","IBM Plex Mono":"YAFdJkmvhGI,0","IBM Plex Sans":"YAFdJgT0SHI,0","Impact":"YAFcfnjI7Vk,0","Instrument Sans":"YAHO2bKyaSQ,0","Instrument Serif":"YAHFeOnZNEk,0","Inter":"YAFdJvSyp_k,3","Italiana":"YAHO2Toik_w,0","Jacques Francois":"YAHO2a5g66Q,0","JetBrains Mono":"YAFdJksXcAk,0","Josefin Sans":"YAFdJjvw9Ps,0","Karla":"YAHO2V2NSXM,0","Lato":"YAFdJuFCnaw,0","Libre Baskerville":"YACgEUFdPdA,0","Libre Caslon Display":"YAHO2XhLmt0,0","Lobster":"YAD8SnSjSFI,0","Lora":"YACgEXvxf8Q,0","Manrope":"YAHO2b2feC4,0","Merriweather":"YACgEXvHxxs,0","Montserrat":"YAFdtQi73Xs,0","Noto Sans JP":"YAFdJiHXlcI,0","Noto Sans KR":"YAGsojZj-RQ,0","Nunito Sans":"YAFdtQJYB9w,1","Nunito":"YAFdJoNRMmU,1","Oleo Script":"YACgEQQ14jI,0","Oswald":"YACgEQY10lw,0","Outfit":"YAHO2nVlg14,0","Pacifico":"YADLjORQ1u4,0","Playfair Display":"YAFdJhem5V8,1","Plus Jakarta Sans":"YAHO2gdhi18,0","Poppins":"YAFdJjbTu24,1","Press Start 2P":"YAFyGr-8pmQ,0","Public Sans":"YAFdJj8NdaU,1","Quicksand":"YAFdJpYtCxE,1","Raleway":"YAFdJhmxbVQ,1","Roboto Slab":"YAFdJswIKAg,0","Rockwell":"YAFcfyVZnN0,0","Rye":"YACgEdQP21k,0","Sarabun":"YAFdJssSnME,0","Schibsted Grotesk":"YAHO2sWydRk,0","Segoe UI":"YAHNdRD1Klw,0","Source Sans 3":"YAG4lO1Mj10,0","Space Grotesk":"YAHO2sjPCSM,0","Space Mono":"YADW1-vpsoc,0","Spectral":"YAHO2rVUHIM,0","Times New Roman":"YAGzXW3gftg,0","Trebuchet MS":"YAFcfrglpVA,0","Ubuntu":"YACgERDU--Q,0","Verdana":"YAGzXTctYtQ,0","Work Sans":"YAGXhLOKv44,0","Yellowtail":"YACgEYG4kG4,0"}}');</script><script src="/_sdk/486a2977e39ad380.telemetry_sdk.js" integrity="sha512-6RGhG0lZ6QriXSp9fyZ35krENb9O9A9i6UklGaEPAGRJqlg443gszr5+rhcE8tJU48EjVhUuSuTu4g7tRHuFHA=="></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Property Operations Platform</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Libre+Franklin:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+  <style>
+    :root{--navy:#101e2b;--deep:#0b1721;--teal:#49d4c0;--ink:#182b36;--muted:#60727d;--line:#dce8e8;--paper:#f5f9f8}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:'DM Sans',sans-serif;color:var(--ink)}
+    .site-wrap{width:100%;overflow:hidden}
+    .shell{width:min(100% - 48px,1180px);margin-inline:auto}
+    h1,h2,h3{font-family:'Libre Franklin',sans-serif;letter-spacing:-.045em}
+    h1{font-size:clamp(2.9rem,6vw,5.35rem);line-height:1.07;font-weight:800}
+    h2{font-size:clamp(2rem,3.9vw,3.35rem);line-height:1.16;font-weight:700}
+    h3{font-size:1.15rem;line-height:1.35;font-weight:700}
+    p{line-height:1.7}
+    a:focus-visible{outline:3px solid var(--teal);outline-offset:4px}
+    .eyebrow{font-size:.76rem;font-weight:700;letter-spacing:.15em;text-transform:uppercase}
+    .topbar{background:var(--deep);border-bottom:1px solid #ffffff20}
+    .nav-row{min-height:80px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{display:flex;align-items:center;gap:11px;color:white;text-decoration:none;font-weight:700;letter-spacing:-.025em}
+    .brand-mark{width:30px;height:30px;border:2px solid var(--teal);border-radius:9px;display:grid;place-items:center;color:var(--teal);font-size:17px;line-height:1}
+    .nav-links{display:flex;align-items:center;gap:27px}
+    .nav-links a,.footer-links a{color:#d5e3e6;text-decoration:none;font-size:.9rem;transition:color .2s}
+    .nav-links a:hover,.footer-links a:hover{color:var(--teal)}
+    .button{display:inline-flex;justify-content:center;align-items:center;min-height:48px;padding:12px 21px;border-radius:11px;text-decoration:none;font-weight:700;font-size:.92rem;transition:transform .2s,background .2s,box-shadow .2s}
+    .button:hover{transform:translateY(-2px)}
+    .button-primary{background:var(--teal);color:#09242a;box-shadow:0 8px 25px #49d4c02b}
+    .button-primary:hover{background:#72e5d5}
+    .button-outline{border:1px solid #8fa4ac;color:#fff;background:transparent}
+    .button-outline:hover{background:#ffffff16}
+    .button-dark{background:var(--navy);color:#fff}
+    .button-dark:hover{background:#264053}
+    .hero{background:radial-gradient(ellipse at 75% 35%,#1e4650 0%,#101e2b 52%,#0b1721 100%);color:white;padding:80px 0 100px}
+    .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:65px;align-items:center}
+    .hero h1{margin:16px 0 22px}
+    .hero-copy{font-size:1.1rem;color:#c4d4d9;max-width:580px}
+    .hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:31px}
+    .hero-note{color:#a5bac0;font-size:.82rem;margin-top:22px}
+    .hero-visual{position:relative;padding:0 0 35px 35px}
+    .hero-photo{display:block;width:100%;height:475px;object-fit:cover;border-radius:24px;box-shadow:0 28px 65px #0007}
+    .visual-chip{position:absolute;bottom:0;left:0;background:#fff;color:var(--ink);border:1px solid #dbe8e6;border-radius:17px;box-shadow:0 20px 50px #0003;padding:18px 22px;width:min(285px,80%)}
+    .chip-top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+    .tiny-label{font-size:.75rem;color:var(--muted)}
+    .chip-task{font-weight:700;margin-top:5px;font-size:.95rem}
+    .status-pill{font-size:.69rem;font-weight:700;background:#d8f8ed;color:#08614f;padding:6px 9px;border-radius:20px;white-space:nowrap}
+    section{scroll-margin-top:24px}
+    .section-pad{padding:105px 0}
+    .section-intro{max-width:700px;margin-bottom:44px}
+    .section-intro h2{margin:12px 0 15px}
+    .section-intro p{font-size:1.05rem;color:var(--muted);margin:0}
+    .problem{background:#fff}
+    .problem-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:70px;align-items:center}
+    .problem-list{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+    .problem-card{border:1px solid var(--line);padding:24px;border-radius:18px;background:#f8fbfa}
+    .problem-card .symbol{width:35px;height:35px;border-radius:10px;background:#e3efee;display:grid;place-items:center;margin-bottom:15px;font-size:1.15rem}
+    .problem-card p{color:var(--muted);font-size:.88rem;margin:8px 0 0}
+    .workflow{background:var(--paper)}
+    .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+    .step{background:white;border:1px solid var(--line);border-radius:19px;padding:25px;position:relative;min-height:230px}
+    .step-number{color:#078878;font-size:.8rem;font-weight:800;letter-spacing:.1em}
+    .step h3{margin:25px 0 10px}
+    .step p{font-size:.89rem;color:var(--muted);margin:0}
+    .overview{background:white}
+    .overview-grid{display:grid;grid-template-columns:.78fr 1.22fr;gap:65px;align-items:center}
+    .overview-copy p{color:var(--muted);font-size:1.04rem}
+    .category-list{display:flex;flex-wrap:wrap;gap:9px;margin-top:25px}
+    .category-list span{border:1px solid #cbdedd;border-radius:100px;padding:9px 14px;color:#24424a;font-size:.82rem;font-weight:700;background:#f4faf9}
+    .dashboard{background:#eef4f3;border:1px solid #d3e2e0;border-radius:23px;padding:13px;box-shadow:0 25px 65px #1e3b3920}
+    .dash-inner{display:grid;grid-template-columns:136px 1fr;min-height:420px;background:white;border-radius:14px;overflow:hidden}
+    .dash-side{background:#142734;color:#c4d8db;padding:23px 14px}
+    .dash-logo{font-size:.78rem;font-weight:800;color:white;margin-bottom:38px}
+    .dash-nav{padding:10px;border-radius:8px;font-size:.72rem;margin-bottom:8px}
+    .dash-nav.active{background:#244a50;color:#82e5d7}
+    .dash-main{padding:24px;min-width:0}
+    .dash-heading{display:flex;justify-content:space-between;align-items:center;gap:10px}
+    .dash-heading h3{margin:0}
+    .dash-badge{background:#e7f7f2;color:#107562;border-radius:20px;padding:7px 10px;font-size:.68rem;font-weight:700}
+    .dash-caption{font-size:.73rem;color:var(--muted);margin:7px 0 19px}
+    .dash-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin-bottom:20px}
+    .dash-stat{background:#f3f8f7;border:1px solid #e4eeee;border-radius:10px;padding:13px}
+    .dash-stat strong{display:block;font-size:1.4rem;color:#17353c}
+    .dash-stat span{font-size:.68rem;color:var(--muted)}
+    .dash-table-title{font-size:.79rem;font-weight:800;margin-bottom:9px}
+    .task-row{display:grid;grid-template-columns:1fr auto;gap:7px;padding:11px 0;border-top:1px solid #e7eded;align-items:center}
+    .task-row strong{display:block;font-size:.75rem}
+    .task-row small{font-size:.67rem;color:var(--muted)}
+    .task-status{border-radius:100px;padding:5px 8px;font-size:.65rem;font-weight:700;background:#eaf5fc;color:#2a667f;white-space:nowrap}
+    .task-status.done{background:#e3f7ed;color:#147252}
+    .task-status.open{background:#fff2df;color:#926021}
+    .analytics{background:#102432;color:#fff}
+    .analytics .section-intro p{color:#bacdd2}
+    .analytics-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:13px}
+    .metric{border:1px solid #ffffff24;background:#ffffff0d;border-radius:17px;padding:23px}
+    .metric strong{display:block;font-size:clamp(1.7rem,3vw,2.5rem);letter-spacing:-.06em;margin:12px 0 2px}
+    .metric span{font-size:.85rem;color:#c6d8da}
+    .metric .accent{color:var(--teal)}
+    .chart-card{margin-top:15px;border:1px solid #ffffff24;background:#ffffff0d;border-radius:18px;padding:28px}
+    .chart-head{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;align-items:baseline}
+    .chart-head h3{margin:0}
+    .chart-head span{font-size:.8rem;color:#b7cbd0}
+    .progress-track{height:18px;background:#39505d;border-radius:100px;overflow:hidden;margin:24px 0 15px}
+    .progress-fill{width:72%;height:100%;background:linear-gradient(90deg,#32bca9,#81e7d5);border-radius:100px}
+    .chart-legend{display:flex;gap:23px;flex-wrap:wrap;color:#d5e4e5;font-size:.8rem}
+    .legend-dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:7px}
+    .disclaimer{font-size:.8rem;color:#a9c2c7;margin:20px 0 0}
+    .benefits{background:#fff}
+    .benefit-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .benefit{background:#f5f9f8;border:1px solid var(--line);border-radius:17px;padding:26px}
+    .benefit-icon{display:grid;place-items:center;width:37px;height:37px;border-radius:10px;background:#dff5ef;color:#087968;font-weight:800;margin-bottom:17px}
+    .benefit h3{margin:0 0 8px}
+    .benefit p{color:var(--muted);font-size:.9rem;margin:0}
+    .usecases{background:var(--paper)}
+    .use-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+    .use-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:23px;min-height:175px}
+    .use-card h3{font-size:1rem;margin:0 0 10px}
+    .use-card p{color:var(--muted);font-size:.84rem;margin:0}
+    .final{background:linear-gradient(120deg,#103e48,#102432 70%);color:white;padding:85px 0;text-align:center}
+    .final h2{max-width:780px;margin:12px auto 18px}
+    .final p{max-width:620px;margin:0 auto 27px;color:#c7dbde}
+    .contact-note{font-size:.8rem!important;color:#b0c7ca!important;margin-top:19px!important}
+    footer{background:#0b1721;color:#aec2c7;padding:33px 0}
+    .footer-inner{display:flex;justify-content:space-between;align-items:center;gap:22px;flex-wrap:wrap}
+    .footer-links{display:flex;gap:22px;flex-wrap:wrap}
+    .footer-brand{color:#fff;font-weight:700}
+    @media(max-width:950px){.hero-grid,.problem-grid,.overview-grid{grid-template-columns:1fr;gap:45px}.hero-visual{max-width:660px}.steps{grid-template-columns:repeat(2,1fr)}.analytics-grid{grid-template-columns:repeat(3,1fr)}.use-grid{grid-template-columns:repeat(3,1fr)}}
+    @media(max-width:650px){.shell{width:min(100% - 32px,1180px)}.nav-row{min-height:72px;flex-wrap:wrap;padding:17px 0}.nav-links{width:100%;justify-content:space-between;gap:12px;overflow:auto}.nav-links a{font-size:.8rem;white-space:nowrap}.nav-demo{display:none}.hero{padding:64px 0 77px}.hero-photo{height:310px}.hero-visual{padding-left:18px}.section-pad{padding:72px 0}.problem-list,.steps,.benefit-grid,.use-grid{grid-template-columns:1fr}.step{min-height:auto}.analytics-grid{grid-template-columns:repeat(2,1fr)}.metric{padding:18px}.dash-inner{grid-template-columns:75px 1fr}.dash-side{padding:17px 7px}.dash-logo{font-size:.6rem}.dash-nav{font-size:.59rem;padding:8px 3px}.dash-main{padding:15px}.dash-stats{gap:5px}.dash-stat{padding:8px}.dash-stat strong{font-size:1rem}.dash-stat span{font-size:.58rem}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="/_sdk/6739934784996595.data_sdk.js" type="text/javascript" integrity="sha512-aHih8MxSNczT9xRyOUq01Vmx230URMZj+8SR3fa6IZ4ScQSlODcJ0UFHLNv4yeUNpouT9N1Dq//VhTGgYsIH3g=="></script>
+  <script src="/_sdk/f35087cf86290a33.editing_sdk.js" type="text/javascript" integrity="sha512-0mbfNVTwbL0jObU6oAxxR5ze1N+oYmbuEj9U1b4T49vSBeEkZoZHWPh6ZDT5m6/VH3g3YGCJo2G9/z6qkXc02w=="></script>
+  <script src="/_sdk/056c9619db603d29.resizing_sdk.js" type="text/javascript" integrity="sha512-M+H3L4m9QQRx/o9ibl2pgmK12j+m7IzyXqQYPu51UsEwWvMSULNPd1Mc6Ou1S2PXfxZHFCe8Axqt+diUPCpRiw=="></script>
+ </head>
+ <body data-template-id="__page-root" style="background: rgb(255, 255, 255);">
+  <div class="site-wrap">
+   <header class="topbar">
+    <div class="shell nav-row"><a class="brand" href="#top" aria-label="Property operations platform, back to top"><span class="brand-mark" aria-hidden="true">⌂</span><span data-template-id="brand-label" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Property operations</span></a>
+     <nav class="nav-links" aria-label="Main navigation"><a data-template-id="nav-how" class="canva-link" href="#how" style="color: rgb(213, 227, 230); font-weight: 400; font-style: normal; font-size: 16px;">How it works</a> <a data-template-id="nav-platform" class="canva-link" href="#platform" style="color: rgb(213, 227, 230); font-weight: 400; font-style: normal; font-size: 16px;">Platform</a> <a data-template-id="nav-insights" class="canva-link" href="#insights" style="color: rgb(213, 227, 230); font-weight: 400; font-style: normal; font-size: 16px;">Insights</a> <a data-template-id="nav-demo" class="canva-link nav-demo" href="#contact" style="color: rgb(213, 227, 230); font-weight: 400; font-style: normal; font-size: 16px;">Request a demo</a>
+     </nav>
+    </div>
+   </header>
+   <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+     <div class="shell hero-grid">
+      <div><span data-template-id="hero-eyebrow" class="canva-text eyebrow" style="color: rgb(73, 212, 192); font-weight: 400; font-style: normal; font-size: 16px;">ONE WORKSPACE FOR EVERY PROPERTY NEED</span>
+       <h1 id="hero-title" data-template-id="hero-title" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 800; font-style: normal; font-size: 32px;">From guest request to work done.</h1>
+       <p data-template-id="hero-copy" class="canva-text hero-copy" style="color: rgb(196, 212, 217); font-weight: 400; font-style: normal; font-size: 16px;">Give guests one place to ask for what they need—and give your team a clear way to assign, complete, and track every job across your properties.</p>
+       <div class="hero-actions"><a data-template-id="hero-primary" class="canva-button button button-primary" href="#how" style="background: rgb(73, 212, 192); color: rgb(9, 36, 42); font-weight: 700; font-style: normal; font-size: 16px;">See how it works</a> <a data-template-id="hero-secondary" class="canva-button button button-outline" href="#contact" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Request a demo</a>
+       </div>
+       <p data-template-id="hero-note" class="canva-text hero-note" style="color: rgb(165, 186, 192); font-weight: 400; font-style: normal; font-size: 16px;">Built for short-term rentals, vacation homes, and serviced stays.</p>
+      </div>
+      <div class="hero-visual"><img data-template-id="hero-image" class="canva-image hero-photo" loading="lazy" src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1280" alt="Contemporary living room with neutral tones, a sleek sofa, and elegant wooden staircase.">
+       <div class="visual-chip" aria-label="Example task preview">
+        <div class="chip-top">
+         <span class="tiny-label">GUEST REQUEST → TEAM TASK</span><span class="status-pill">Assigned</span>
+        </div>
+        <div class="chip-task">
+         Fresh towels · Apartment 204
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section id="problem" class="problem section-pad" aria-labelledby="problem-title">
+     <div class="shell problem-grid">
+      <div class="section-intro" style="margin:0"><span data-template-id="problem-eyebrow" class="canva-text eyebrow" style="color: rgb(8, 121, 104); font-weight: 400; font-style: normal; font-size: 16px;">THE PROBLEM</span>
+       <h2 id="problem-title" data-template-id="problem-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 700; font-style: normal; font-size: 24px;">Guest needs should not get lost between messages.</h2>
+       <p data-template-id="problem-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">When requests arrive through scattered conversations, it is hard to know what needs action, who owns it, and whether it is finished. A central workflow brings the whole picture into view.</p>
+      </div>
+      <div class="problem-list">
+       <article class="problem-card">
+        <span class="symbol" aria-hidden="true">✉</span>
+        <h3 data-template-id="problem-one-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Scattered messages</h3>
+        <p data-template-id="problem-one-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">Guest needs live across channels and conversations.</p>
+       </article>
+       <article class="problem-card">
+        <span class="symbol" aria-hidden="true">↗</span>
+        <h3 data-template-id="problem-two-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Missed requests</h3>
+        <p data-template-id="problem-two-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">Small issues can slip through without a clear queue.</p>
+       </article>
+       <article class="problem-card">
+        <span class="symbol" aria-hidden="true">?</span>
+        <h3 data-template-id="problem-three-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Unclear ownership</h3>
+        <p data-template-id="problem-three-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">Teams need to know who is handling each task.</p>
+       </article>
+       <article class="problem-card">
+        <span class="symbol" aria-hidden="true">◷</span>
+        <h3 data-template-id="problem-four-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Limited visibility</h3>
+        <p data-template-id="problem-four-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">Managers need to see what is done and what remains.</p>
+       </article>
+      </div>
+     </div>
+    </section>
+    <section id="how" class="workflow section-pad" aria-labelledby="how-title">
+     <div class="shell">
+      <div class="section-intro"><span data-template-id="how-eyebrow" class="canva-text eyebrow" style="color: rgb(8, 121, 104); font-weight: 400; font-style: normal; font-size: 16px;">HOW IT WORKS</span>
+       <h2 id="how-title" data-template-id="how-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 700; font-style: normal; font-size: 24px;">A clear path from need to resolution.</h2>
+       <p data-template-id="how-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">One connected flow keeps guests, property teams, and managers aligned.</p>
+      </div>
+      <div class="steps">
+       <article class="step">
+        <span class="step-number">01 / SUBMIT</span>
+        <h3 data-template-id="step-one-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Guests share a need</h3>
+        <p data-template-id="step-one-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">A guest submits a request online, connected to their stay or property.</p>
+       </article>
+       <article class="step">
+        <span class="step-number">02 / ORGANIZE</span>
+        <h3 data-template-id="step-two-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">A task takes shape</h3>
+        <p data-template-id="step-two-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">The request becomes actionable work with a category and owner.</p>
+       </article>
+       <article class="step">
+        <span class="step-number">03 / COMPLETE</span>
+        <h3 data-template-id="step-three-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">The team moves it forward</h3>
+        <p data-template-id="step-three-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">Staff handle the task and update its status as work progresses.</p>
+       </article>
+       <article class="step">
+        <span class="step-number">04 / UNDERSTAND</span>
+        <h3 data-template-id="step-four-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Managers see the picture</h3>
+        <p data-template-id="step-four-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">Review completed work, outstanding tasks, and areas needing attention.</p>
+       </article>
+      </div>
+     </div>
+    </section>
+    <section id="platform" class="overview section-pad" aria-labelledby="platform-title">
+     <div class="shell overview-grid">
+      <div class="overview-copy"><span data-template-id="platform-eyebrow" class="canva-text eyebrow" style="color: rgb(8, 121, 104); font-weight: 400; font-style: normal; font-size: 16px;">ONE SOURCE OF TRUTH</span>
+       <h2 id="platform-title" data-template-id="platform-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 700; font-style: normal; font-size: 24px;">Every request. One operational view.</h2>
+       <p data-template-id="platform-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">Bring guest needs and property work into the same workspace. See what came in, where it belongs, who is responsible, and how it is moving forward.</p>
+       <div class="category-list" aria-label="Example request categories"><span>Cleaning</span><span>Maintenance</span><span>Supplies</span><span>Access</span><span>Guest questions</span>
+       </div>
+      </div>
+      <div class="dashboard" aria-label="Illustrative property operations dashboard">
+       <div class="dash-inner">
+        <aside class="dash-side" aria-label="Illustrative dashboard navigation">
+         <div class="dash-logo">
+          OPERATIONS
+         </div>
+         <div class="dash-nav active">
+          Overview
+         </div>
+         <div class="dash-nav">
+          Requests
+         </div>
+         <div class="dash-nav">
+          Properties
+         </div>
+         <div class="dash-nav">
+          Reports
+         </div>
+        </aside>
+        <div class="dash-main">
+         <div class="dash-heading">
+          <h3>Requests overview</h3><span class="dash-badge">Illustrative view</span>
+         </div>
+         <p class="dash-caption">A clearer picture of work across your properties</p>
+         <div class="dash-stats">
+          <div class="dash-stat">
+           <strong>18</strong><span>New requests</span>
+          </div>
+          <div class="dash-stat">
+           <strong>7</strong><span>In progress</span>
+          </div>
+          <div class="dash-stat">
+           <strong>42</strong><span>Completed</span>
+          </div>
+         </div>
+         <div class="dash-table-title">
+          Recent work
+         </div>
+         <div class="task-row">
+          <div>
+           <strong>Extra linens requested</strong><small>Supplies · Apartment 204 · Housekeeping</small>
+          </div><span class="task-status">In progress</span>
+         </div>
+         <div class="task-row">
+          <div>
+           <strong>Check-in access question</strong><small>Access · Beach House · Guest team</small>
+          </div><span class="task-status done">Completed</span>
+         </div>
+         <div class="task-row">
+          <div>
+           <strong>Air conditioning check</strong><small>Maintenance · Suite 12 · Maintenance</small>
+          </div><span class="task-status open">Open</span>
+         </div>
+         <div class="task-row">
+          <div>
+           <strong>Kitchen restock</strong><small>Supplies · Apartment 106 · Housekeeping</small>
+          </div><span class="task-status done">Completed</span>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section id="insights" class="analytics section-pad" aria-labelledby="insights-title">
+     <div class="shell">
+      <div class="section-intro"><span data-template-id="insights-eyebrow" class="canva-text eyebrow" style="color: rgb(73, 212, 192); font-weight: 400; font-style: normal; font-size: 16px;">WORK DONE VS. WORK LEFT</span>
+       <h2 id="insights-title" data-template-id="insights-title" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 24px;">Know where operations stand.</h2>
+       <p data-template-id="insights-copy" class="canva-text" style="color: rgb(186, 205, 210); font-weight: 400; font-style: normal; font-size: 16px;">A practical view of completed tasks and remaining work helps managers decide what needs attention next.</p>
+      </div>
+      <div class="analytics-grid" aria-label="Illustrative dashboard metrics">
+       <div class="metric">
+        <span>Completed tasks</span><strong class="accent">72</strong>
+       </div>
+       <div class="metric">
+        <span>Open tasks</span><strong>14</strong>
+       </div>
+       <div class="metric">
+        <span>In progress</span><strong>9</strong>
+       </div>
+       <div class="metric">
+        <span>Overdue</span><strong>5</strong>
+       </div>
+       <div class="metric">
+        <span>Completion rate</span><strong class="accent">72%</strong>
+       </div>
+      </div>
+      <div class="chart-card">
+       <div class="chart-head">
+        <h3>Task completion snapshot</h3><span>72 of 100 example tasks completed</span>
+       </div>
+       <div class="progress-track" role="img" aria-label="Illustrative completion progress: 72 percent completed">
+        <div class="progress-fill"></div>
+       </div>
+       <div class="chart-legend">
+        <span><i class="legend-dot" style="background:#49d4c0"></i>Completed · 72</span><span><i class="legend-dot" style="background:#7293a0"></i>Remaining · 28</span>
+       </div>
+      </div>
+      <p data-template-id="metrics-disclaimer" class="canva-text disclaimer" style="color: rgb(169, 194, 199); font-weight: 400; font-style: normal; font-size: 16px;">All figures shown are illustrative examples, not actual customer results or live platform data.</p>
+     </div>
+    </section>
+    <section id="benefits" class="benefits section-pad" aria-labelledby="benefits-title">
+     <div class="shell">
+      <div class="section-intro">
+       <span data-template-id="benefits-eyebrow" class="canva-text eyebrow" style="color: rgb(8, 121, 104); font-weight: 400; font-style: normal; font-size: 16px;">BUILT FOR BETTER OPERATIONS</span>
+       <h2 id="benefits-title" data-template-id="benefits-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 700; font-style: normal; font-size: 24px;">Clarity for teams. Confidence for managers.</h2>
+      </div>
+      <div class="benefit-grid">
+       <article class="benefit">
+        <span class="benefit-icon" aria-hidden="true">✓</span>
+        <h3 data-template-id="benefit-one-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Fewer missed requests</h3>
+        <p data-template-id="benefit-one-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">Give incoming needs a visible place in the work queue.</p>
+       </article>
+       <article class="benefit">
+        <span class="benefit-icon" aria-hidden="true">↗</span>
+        <h3 data-template-id="benefit-two-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Faster response</h3>
+        <p data-template-id="benefit-two-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">Help the right team see and act on new work promptly.</p>
+       </article>
+       <article class="benefit">
+        <span class="benefit-icon" aria-hidden="true">◎</span>
+        <h3 data-template-id="benefit-three-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Clear accountability</h3>
+        <p data-template-id="benefit-three-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">Make ownership and task status easy to understand.</p>
+       </article>
+       <article class="benefit">
+        <span class="benefit-icon" aria-hidden="true">◉</span>
+        <h3 data-template-id="benefit-four-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Real-time visibility</h3>
+        <p data-template-id="benefit-four-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">See progress and outstanding work in one view.</p>
+       </article>
+       <article class="benefit">
+        <span class="benefit-icon" aria-hidden="true">✦</span>
+        <h3 data-template-id="benefit-five-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Consistent guest service</h3>
+        <p data-template-id="benefit-five-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">Give each request a repeatable path to resolution.</p>
+       </article>
+      </div>
+     </div>
+    </section>
+    <section id="teams" class="usecases section-pad" aria-labelledby="teams-title">
+     <div class="shell">
+      <div class="section-intro">
+       <span data-template-id="teams-eyebrow" class="canva-text eyebrow" style="color: rgb(8, 121, 104); font-weight: 400; font-style: normal; font-size: 16px;">WHO IT HELPS</span>
+       <h2 id="teams-title" data-template-id="teams-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 700; font-style: normal; font-size: 24px;">One workflow, across every kind of property team.</h2>
+      </div>
+      <div class="use-grid">
+       <article class="use-card">
+        <h3 data-template-id="use-one-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Multi-property operators</h3>
+        <p data-template-id="use-one-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">See work across locations without losing the details.</p>
+       </article>
+       <article class="use-card">
+        <h3 data-template-id="use-two-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Individual hosts</h3>
+        <p data-template-id="use-two-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">Keep guest needs and follow-ups in one place.</p>
+       </article>
+       <article class="use-card">
+        <h3 data-template-id="use-three-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Housekeeping teams</h3>
+        <p data-template-id="use-three-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">Track cleaning and supply requests clearly.</p>
+       </article>
+       <article class="use-card">
+        <h3 data-template-id="use-four-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Maintenance teams</h3>
+        <p data-template-id="use-four-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">Prioritize repairs and update progress.</p>
+       </article>
+       <article class="use-card">
+        <h3 data-template-id="use-five-title" class="canva-text" style="color: rgb(24, 43, 54); font-weight: 400; font-style: normal; font-size: 19px;">Guest-experience teams</h3>
+        <p data-template-id="use-five-copy" class="canva-text" style="color: rgb(96, 114, 125); font-weight: 400; font-style: normal; font-size: 16px;">Stay informed as guest questions and needs are resolved.</p>
+       </article>
+      </div>
+     </div>
+    </section>
+    <section id="contact" class="final" aria-labelledby="final-title">
+     <div class="shell"><span data-template-id="final-eyebrow" class="canva-text eyebrow" style="color: rgb(73, 212, 192); font-weight: 400; font-style: normal; font-size: 16px;">BRING IT ALL TOGETHER</span>
+      <h2 id="final-title" data-template-id="final-title" class="canva-text" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 24px;">Centralize guest needs. See exactly what is done—and what is left.</h2>
+      <p data-template-id="final-copy" class="canva-text" style="color: rgb(199, 219, 222); font-weight: 400; font-style: normal; font-size: 16px;">Give every request a clear next step and every property team a shared view of the work.</p><a data-template-id="final-button" class="canva-button button button-primary" href="#how" style="background: rgb(73, 212, 192); color: rgb(9, 36, 42); font-weight: 700; font-style: normal; font-size: 16px;">Explore the workflow</a>
+      <p data-template-id="contact-note" class="canva-text contact-note" style="color: rgb(176, 199, 202); font-weight: 400; font-style: normal; font-size: 16px;">Want to offer demos? Add your preferred contact link to this section before publishing.</p>
+     </div>
+    </section>
+   </main>
+   <footer>
+    <div class="shell footer-inner"><span data-template-id="footer-brand" class="canva-text footer-brand" style="color: rgb(255, 255, 255); font-weight: 700; font-style: normal; font-size: 16px;">Property operations</span>
+     <nav class="footer-links" aria-label="Footer navigation"><a data-template-id="footer-how" class="canva-link" href="#how" style="color: rgb(213, 227, 230); font-weight: 400; font-style: normal; font-size: 16px;">How it works</a> <a data-template-id="footer-platform" class="canva-link" href="#platform" style="color: rgb(213, 227, 230); font-weight: 400; font-style: normal; font-size: 16px;">Platform</a> <a data-template-id="footer-insights" class="canva-link" href="#insights" style="color: rgb(213, 227, 230); font-weight: 400; font-style: normal; font-size: 16px;">Insights</a> <a data-template-id="footer-contact" class="canva-link" href="#contact" style="color: rgb(213, 227, 230); font-weight: 400; font-style: normal; font-size: 16px;">Demo information</a>
+     </nav>
+    </div>
+   </footer>
+  </div>
+ 
+</body></html>
